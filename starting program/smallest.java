@@ -1,0 +1,20 @@
+//waqd User to 2int type number input than compair the 2 number result will be Smallest show
+
+import java.util.Scanner;
+class smallest 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println(" Enter a number 1");
+		int a=sc.nextInt();
+
+		System.out.println(" Enter a number 2");
+		int b=sc.nextInt();
+
+		System.out.println(a<b?a:b);
+
+		System.out.println(b<a?b:a);
+	}
+}

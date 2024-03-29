@@ -1,0 +1,17 @@
+///WAJP int type data for user And convert hours into== sec .....
+
+import java.util.Scanner;
+class hoursmin 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter A Hours");
+
+		int hrs=sc.nextInt();
+		
+		int sec=hrs*60*60;
+
+		System.out.println("seconds:"+sec);
+	}
+}
